@@ -1,0 +1,1 @@
+﻿package  {	import flash.events.KeyboardEvent;		public class KeyboardEventData {		var keyCode:uint = 0;		var charCode:uint = 0;		var shiftKey:Boolean = false;		var keyLocation:uint = 0;		public function KeyboardEventData(e:KeyboardEvent) {			keyCode = e.keyCode;			charCode = e.charCode;			shiftKey = e.shiftKey;			keyLocation = e.keyLocation;		}	}	}

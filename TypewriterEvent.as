@@ -1,0 +1,1 @@
+﻿package  {	import flash.events.Event;		public class TypewriterEvent extends Event {				public static const ENTER:String = "enter";		public static const WAITING_ON_INPUT:String = "waitingOnInput";		public var input:String = "";				public function TypewriterEvent(type:String = "enter") {			super(type)		}	}	}
